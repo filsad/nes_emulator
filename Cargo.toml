@@ -1,0 +1,16 @@
+[package]
+name = "rustnes"
+version = "0.1.0"
+authors = ["Filip"]
+edition = "2021"
+build = "build.rs"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+lazy_static = "1.4"
+wrapping_arithmetic = "0.1.0"
+log = "0.4.17"
+fern = "0.6.1"
+bitvec = "1.0.1"
+sdl2 = "0.35.2"
